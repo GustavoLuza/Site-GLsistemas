@@ -1,0 +1,586 @@
+	@charset="UTF-8";
+				*{ 
+					margin:0 0 0 0;
+				}
+				
+				.topo {
+					border-bottom: 2px ridge #E8E8E8;
+					text-align: center;
+					width: 100%;
+					height: 90px;
+					position: relative;
+					background-color: #E8E8E8;
+				}
+				
+				
+				.imagem {
+					float:left;
+					margin-top: 7px;
+					margin-left: 70px;
+				}
+				.link ul {
+					list-style: none;
+					
+
+				}
+				.link ul li{
+					float:left;
+					padding-top: 50px;
+					padding-left: 20px;
+					
+				}
+				
+				.link ul li a{
+					padding-left: 70px;
+					text-decoration: none;
+					color:black;
+				}	
+				.quebra {
+					clear:left;
+				}
+				
+				.link ul li a span{
+					background: #e8e8e8;
+					position: relative;
+					padding: 50px 5px 23px 7px; 
+
+				}
+				
+				.link ul li a span:hover{
+					border-bottom: 1px solid orange;
+					padding: 50px 5px 23px 7px; 
+						
+				}
+				
+				.conteudo table tr th  {
+					position:relative;
+					left:650px;
+					top:-23px;
+					border:2px solid orange;
+				}
+				
+				.conteudo table tr td  {
+					border:2px solid orange;
+					position:relative;
+					left:650px;
+					top: -23px;
+				}
+				
+				.conteudo {
+					margin-bottom: 80px;
+				}
+				
+				.conteudo_listar_cliente table tr th  {
+					position:relative;
+					left:400px;
+					top:-23px;
+					border:2px solid orange;
+				}
+				
+				.conteudo_listar_cliente table tr td  {
+					border:2px solid orange;
+					position:relative;
+					left:400px;
+					top: -23px;
+				}
+				
+				.conteudo_listar_cliente {
+					margin-bottom: 80px;
+				}
+				
+				.conteudo_listar_cliente_inicial table tr th  {
+					position:relative;
+					left:600px;
+					top:-80px;
+					border:2px solid orange;
+				}
+				
+				.conteudo_listar_cliente_inicial table tr td  {
+					border:2px solid orange;
+					position:relative;
+					left:600px;
+					top: -80px;
+				}
+				
+				.conteudo_listar_cliente_inicial {
+					margin-bottom: 80px;
+				}
+				
+				.conteudo_listar_arquivo_inicial table tr th  {
+					position:relative;
+					left:600px;
+					top:-80px;
+					border:2px solid orange;
+				}
+				
+				.conteudo_listar_arquivo_inicial table tr td  {
+					border:2px solid orange;
+					position:relative;
+					left:600px;
+					top: -80px;
+				}
+				
+				.conteudo_listar_arquivo_inicial {
+					margin-bottom: 80px;
+				}
+				
+				.conteudo_listar_produto table tr th  {
+					position:relative;
+					left:340px;
+					top:-23px;
+					border:2px solid orange;
+				}
+				
+				.conteudo_listar_produto table tr td  {
+					border:2px solid orange;
+					position:relative;
+					left:340px;
+					top: -23px;
+				}
+				
+				.conteudo_listar_produto {
+					margin-bottom: 80px;
+				}
+				
+				.conteudo_listar_produto_inicial table tr th  {
+					position:relative;
+					left:600px;
+					top:-120px;
+					border:2px solid orange;
+				}
+				
+				.conteudo_listar_produto_inicial table tr td  {
+					border:2px solid orange;
+					position:relative;
+					left:600px;
+					top: -120px;
+				}
+				
+				.conteudo_listar_produto_inicial {
+					margin-bottom: 80px;
+				}
+				
+				.conteudo_listar_fornecedor table tr th  {
+					position:relative;
+					left:510px;
+					top:-23px;
+					border:2px solid orange;
+				}
+				
+				.conteudo_listar_fornecedor table tr td  {
+					border:2px solid orange;
+					position:relative;
+					left:510px;
+					top: -23px;
+				}
+				
+				.conteudo_listar_fornecedor {
+					margin-bottom: 80px;
+				}
+				
+				.conteudo_listar_fornecedor_inicial table tr th  {
+					position:relative;
+					left:600px;
+					top:-60px;
+					border:2px solid orange;
+				}
+				
+				.conteudo_listar_fornecedor_inicial table tr td  {
+					border:2px solid orange;
+					position:relative;
+					left:600px;
+					top: -60px;
+				}
+				
+				.conteudo_listar_fornecedor_inicial {
+					margin-bottom: 80px;
+				}
+				
+				.conteudo_listar_servico table tr th  {
+					position:relative;
+					left:510px;
+					top:-23px;
+					border:2px solid orange;
+				}
+				
+				.conteudo_listar_servico table tr td  {
+					border:2px solid orange;
+					position:relative;
+					left:510px;
+					top: -23px;
+				}
+				
+				.conteudo_listar_servico {
+					margin-bottom: 80px;
+				}
+				
+				.conteudo_listar_servico_inicial table tr th  {
+					position:relative;
+					left:600px;
+					top:-180px;
+					border:2px solid orange;
+				}
+				
+				.conteudo_listar_servico_inicial table tr td  {
+					border:2px solid orange;
+					position:relative;
+					left:600px;
+					top: -180px;
+				}
+				
+				.conteudo_listar_servico_inicial {
+					margin-bottom: 80px;
+				}
+				
+				.conteudo_listar_usuario table tr th  {
+					position:relative;
+					left:400px;
+					top:-23px;
+					border:2px solid orange;
+				}
+				
+				.conteudo_listar_usuario table tr td  {
+					border:2px solid orange;
+					position:relative;
+					left:400px;
+					top: -23px;
+				}
+				
+				.conteudo_listar_usuario {
+					margin-bottom: 80px;
+				}
+				
+				.conteudo_listar_usuario_inicial table tr th  {
+					position:relative;
+					left:650px;
+					top:-90px;
+					border:2px solid orange;
+				}
+				
+				.conteudo_listar_usuario_inicial table tr td  {
+					border:2px solid orange;
+					position:relative;
+					left:650px;
+					top: -90px;
+				}
+				
+				.conteudo_listar_usuario_inicial {
+					margin-bottom: 80px;
+				}
+				
+				.conteudo_listar_mensagem table tr th  {
+					position:relative;
+					left:250px;
+					top:-23px;
+					border:2px solid orange;
+				}
+				
+				.conteudo_listar_mensagem table tr td  {
+					border:2px solid orange;
+					position:relative;
+					left:250px;
+					top: -23px;
+				}
+				
+				.conteudo_listar_mensagem {
+					margin-bottom: 80px;
+				}
+				
+				.conteudo_listar_mensagem_inicial table tr th  {
+					position:relative;
+					left:600px;
+					top:-90px;
+					border:2px solid orange;
+				}
+				
+				.conteudo_listar_mensagem_inicial table tr td  {
+					border:2px solid orange;
+					position:relative;
+					left:600px;
+					top: -90px;
+				}
+				
+				.conteudo_listar_mensagem_inicial {
+					margin-bottom: 80px;
+				}
+				
+				#chamada {
+					margin-bottom: 80px;
+				}
+					
+					
+					div#sobre {
+					position:relative;
+					padding: 60px 70px 70px;
+					
+					
+				}
+				
+					div#imagemlogin{
+					position:relative;
+					padding:60px 585px 0px;
+					}
+					
+					div#imagem_cadastro_cliente{
+					position:relative;
+					padding:30px 585px 0px;
+					}
+					
+					div#imagem_cadastro_produto{
+					position:relative;
+					padding:30px 585px 0px;
+					}
+					
+					div#imagem_cadastro_fornecedor{
+					position:relative;
+					padding:30px 585px 0px;
+					}
+					
+					div#imagem_cadastro_servico{
+					position:relative;
+					padding:30px 585px 0px;
+					}
+					
+					div#imagem_cadastro_usuario{
+					position:relative;
+					padding:30px 585px 0px;
+					}
+				
+					div#imagem_listar_cliente{
+					position:relative;
+					padding:30px 585px 40px;
+					}
+					
+					div#imagem_listar_produto{
+					position:relative;
+					padding:30px 585px 40px;
+					}
+					
+					div#imagem_listar_mensagem{
+					position:relative;
+					padding:30px 585px 40px;
+					}
+					
+					div#imagem_listar_fornecedor{
+					position:relative;
+					padding:30px 585px 40px;
+					}
+					
+					div#imagem_listar_servico{
+					position:relative;
+					padding:30px 585px 40px;
+					}
+					
+					div#imagem_listar_usuario{
+					position:relative;
+					padding:30px 585px 40px;
+					}
+					
+					div#botaotrabalhe{
+					position:relative;
+					padding:20px 600px 0px;
+					}
+					
+					
+					div#vemser {
+					position:relative;
+					padding: 60px 70px 70px;
+					
+					
+				}
+				
+					div#login {
+					position:relative;
+					padding: 20px 620px 30px;
+					
+					
+				}
+				
+				div#upload {
+					position:relative;
+					padding: 190px 620px 90px;
+					
+					
+				}
+				
+				div#cadastro_cliente {
+					position:relative;
+					padding: 30px 650px 0px;
+					
+					
+				}
+				
+				div#cadastro_produto {
+					position:relative;
+					padding: 30px 650px 0px;
+					
+					
+				}
+				
+				div#cadastro_fornecedor {
+					position:relative;
+					padding: 30px 650px 0px;
+					
+					
+				}
+				
+				div#cadastro_servico {
+					position:relative;
+					padding: 30px 650px 0px;
+					
+					
+				}
+				
+				div#cadastro_usuario {
+					position:relative;
+					padding: 30px 650px 0px;
+					
+					
+				}
+				
+					div#trabalhe {
+					position:relative;
+					padding: 60px 500px 10px;
+					
+					
+				}
+					div#chamada {
+					position:relative;
+					padding: 30px 450px 30px;
+					
+					
+				}
+				
+					.cadastre {
+					position:relative;
+					padding: 40px 600px 30px;
+					
+					
+				}
+				
+				
+				
+					div#fichacontato {
+					position:relative;
+					padding: 20px 620px 30px;
+					
+					
+				}
+				
+					#nome{
+						position: relative;	
+					}
+					
+					#email{
+						position: relative;
+					}
+					
+					#empresa{
+						position: relative;	
+					}
+					
+					#telefone{
+						position: relative;	
+					}
+					
+					#celular{
+						position: relative;	
+					}
+					
+					#assunto{
+						position: relative;
+					}
+				
+					div#produto {
+					position:relative;
+					padding: 60px 70px 70px;
+					
+					
+				}
+					div#empresas {
+					position:relative;
+					padding: 60px 70px 70px;
+					
+					
+				}
+				
+				
+					div#contato {
+					position:relative;
+					padding: 60px 70px 70px;
+					
+					}
+					
+					div#matriz {
+					position:relative;
+					padding: 60px 500px 15px;
+					
+					}
+					
+					div#filial1 {
+					position:relative;
+					padding: 60px 550px 15px;
+					
+					}
+					
+					div#filial2 {
+					position:relative;
+					padding: 60px 480px 15px;
+					
+					}
+					
+					div#textomatriz a{
+					padding-left:700px ;
+					text-decoration: none;
+					color:black;
+					}
+					
+					div#textofilial1 a{
+					padding-left:700px;
+					text-decoration: none;
+					color:black;
+					}
+					
+					div#textofilial2 a{
+					padding-left:700px;
+					text-decoration: none;
+					color:black;
+					}
+			
+						
+				footer{
+					position: fixed;
+					bottom: 0;
+					width:100%;
+					height:80px;
+					background: #E8E8E8;
+					
+				}
+				#fb-rodape{
+					float: left;
+					position: relative;
+					left: 830px;
+					top: 35px;
+				}
+				#cr-rodape{
+					float: left;
+					position: relative; 
+					left: 450px;
+					top: 35px;
+				}
+				#nome-rodape{
+					float: left;
+					position: relative;
+					left: 70px;
+					top: 35px;
+				}
+				
+				 #fb-rodape a{
+				
+					text-decoration: none;
+					color:black;
+				}
+				
+				
+				
+				

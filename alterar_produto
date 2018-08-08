@@ -1,0 +1,59 @@
+﻿<?php
+	include('conexao.php');
+?>
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<?php
+			$id = $_GET['id'];
+			$sql = "SELECT * FROM produto WHERE id = $id";
+			$query = mysqli_query($con, $sql);
+			$arr = mysqli_fetch_array($query, MYSQLI_ASSOC);
+		?>
+		<form action="alterar_produto_db.php" method="POST">
+			<input type="hidden" name="id" value="<?php echo $id; ?>">
+			
+			<label for="id_fornecedor">Fornecedor:</label><br>
+			<select name="id_fornecedor" id="id_fornecedor">
+			<?php
+				$sql = "SELECT id, nome FROM fornecedor";
+				$query = mysqli_query($con, $sql);
+				while ($obj = mysqli_fetch_array($query)) {
+			?>
+				<option value="<?php echo $obj['id']; ?>" <?php if($obj['id'] == $arr['id_fornecedor']) { ?>selected="selected"<?php } ?>><?php echo $obj['razao_social']; ?></option>
+			<?php
+				}
+			?>
+			</select><br><br>
+			
+			<label for="nome_produto">Nome produto:</label><br>
+			<input type="text" name="nome_produto" id="nome_produto" maxlength="250" value="<?php echo $arr['nome_produto']; ?>"><br><br>
+			
+			<label for="descricao">Descricao:</label><br>
+			<input type="text" name="descricao" id="descricao" maxlength="250" value="<?php echo $arr['descricao']; ?>"><br><br>
+			
+			<label for="fabricante">Fabricante:</label><br>
+			<input type="text" name="fabricante" id="fabricante" maxlength="250" value="<?php echo $arr['fabricante']; ?>"><br><br>
+			
+			<label for="valor_compra">Valor Compra:</label><br>
+			<input type="text" name="valor_compra" id="valor_compra" maxlength="" value="<?php echo $arr['valor_compra']; ?>"><br><br>
+
+			<label for="valor_venda">valor Venda:</label><br>
+			<input type="text" name="valor_venda" id="valor_venda" maxlength="" value="<?php echo $arr['valor_venda']; ?>"><br><br>
+			
+			<label for="formato">Formato:</label><br>
+			<input type="text" name="formato" id="formato" maxlength="10" value="<?php echo $arr['formato']; ?>"><br><br>
+			
+			<input type="submit" value="Alterar">
+		</form>
+	</body>
+</html>
+<?php
+	mysqli_close($con);
+?>
+
+
+
